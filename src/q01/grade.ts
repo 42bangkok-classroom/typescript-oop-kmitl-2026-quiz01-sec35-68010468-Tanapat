@@ -1,5 +1,5 @@
 const grade = Number(process.argv[2]);
-if(Number.isNaN(grade) || grade > 100 || grade < 0){
+if(Number.isNaN(grade) || grade > 100 || grade < 0 || process.argv[2]=== ''){
     console.log('Invalid Input')
 }
 else if(grade>=80){
