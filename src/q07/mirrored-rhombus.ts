@@ -7,7 +7,7 @@ if(Number.isNaN(input) || input <= 0){
 else{
     for(let i = 0; i < input; i++){
         let result = ''
-        for (let j = 0; j <= i; j++){
+        for (let j = 0; j <= input; j++){
                 result += '*'
         }
         console.log(result)
