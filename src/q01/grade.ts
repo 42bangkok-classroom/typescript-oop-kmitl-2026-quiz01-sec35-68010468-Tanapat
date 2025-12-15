@@ -1,4 +1,4 @@
-const grade : number = parseInt(process.argv[2]);
+const grade = Number(process.argv[2]);
 if(Number.isNaN(grade) || grade > 100 || grade < 0){
     console.log('Invalid Input')
 }
