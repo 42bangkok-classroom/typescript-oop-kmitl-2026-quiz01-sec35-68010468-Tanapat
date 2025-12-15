@@ -1,4 +1,4 @@
-const input: number = parseInt(process.argv[2])
+const input: number = parseFloat(process.argv[2])
 if(Number.isNaN(input) || input <= 0){
     console.log('Invalid Input')
 }
